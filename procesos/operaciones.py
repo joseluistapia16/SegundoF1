@@ -27,3 +27,12 @@ def getAge(edad):
             return "Adulto!"
         if edad>=65 and edad<=115:
             return "Adulto Mayor!"
+
+def inputInt(msg):
+    x = -1
+    while x < 0:
+        try:
+            x = int(input(msg))
+        except:
+            print("Valor invalido!")
+            x = -1

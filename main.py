@@ -114,5 +114,5 @@ def funcion1():
     print("Hola Franklin")
     print("Segundo F")
 
-funcion8()
-
+#funcion8()
+k = inputInt("Ingrese su edad:")
