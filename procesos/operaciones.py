@@ -36,3 +36,4 @@ def inputInt(msg):
         except:
             print("Valor invalido!")
             x = -1
+    return x
