@@ -1,5 +1,12 @@
-from procesos.operaciones import *
-from procesos.menus import *
+from impl.run import *
+
+if __name__ == '__main__':
+    ob = Run()
+    ob.start()
+
+
+
+"""
 def funcion2():
     x1 = "POO"
     x2= "Hola"
@@ -115,4 +122,6 @@ def funcion1():
     print("Segundo F")
 
 #funcion8()
+
 k = inputInt("Ingrese su edad:")
+"""
