@@ -8,3 +8,11 @@ class Data:
                 obj = lista[i]
                 break
         return obj
+
+    def getClientId(self,cedula,lista):
+        pos = -1
+        for i in range(len(lista)):
+            if cedula == lista[i].getCedula():
+                pos = i
+                break
+        return pos
